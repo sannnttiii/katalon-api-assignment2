@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01-POST-Create Single Album</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe910dbf-1595-4a9f-9a6d-6fd1033fc6ed</testCaseGuid>
+</TestCaseEntity>

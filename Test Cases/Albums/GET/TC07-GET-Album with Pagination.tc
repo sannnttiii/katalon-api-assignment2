@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07-GET-Album with Pagination</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7b4e3b70-00c8-4e73-8964-99fbe6e2b8d1</testCaseGuid>
+</TestCaseEntity>
