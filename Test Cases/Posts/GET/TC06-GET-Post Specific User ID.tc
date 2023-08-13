@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06-GET-Post Specific User ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd076f7e-bc90-4e14-8f90-6c4ee77f420b</testCaseGuid>
+</TestCaseEntity>

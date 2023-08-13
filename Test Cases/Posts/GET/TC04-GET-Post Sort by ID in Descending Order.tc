@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04-GET-Post Sort by ID in Descending Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>620717e2-6a76-4c4a-8fe6-240757262cf7</testCaseGuid>
+</TestCaseEntity>

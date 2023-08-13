@@ -11,7 +11,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;userId\&quot;: 1,\n  \&quot;id\&quot;:101,\n  \&quot;title\&quot;: \&quot;CREATE NEW POST\&quot;,\n  \&quot;body\&quot;: \&quot;ID auto generate\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;userId\&quot;: ${post_userid},\n  \&quot;id\&quot;:101,\n  \&quot;title\&quot;: \&quot;${post_title}\&quot;,\n  \&quot;body\&quot;: \&quot;${post_body}\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -37,6 +37,27 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.Global_Post_UserId</defaultValue>
+      <description></description>
+      <id>d44e35d7-30d3-4b83-9e11-2c7efb49c008</id>
+      <masked>false</masked>
+      <name>post_userid</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Global_Post_Title</defaultValue>
+      <description></description>
+      <id>cf744bba-3981-42b7-b993-e877854e2ebf</id>
+      <masked>false</masked>
+      <name>post_title</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Global_Post_Body</defaultValue>
+      <description></description>
+      <id>c2e10c0d-207a-48ea-af81-f06fdd9642f0</id>
+      <masked>false</masked>
+      <name>post_body</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
@@ -49,6 +70,16 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+
+
+WS.verifyResponseStatusCode(response, 201)
+
+assertThat(response.getStatusCode()).isEqualTo(201)
+
+WS.verifyElementPropertyValue(response, 'userId', 2)
+WS.verifyElementPropertyValue(response, 'id', 101)
+WS.verifyElementPropertyValue(response, 'title', 'CREATE NEW DATA')
+WS.verifyElementPropertyValue(response, 'body', 'New BODY data')</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

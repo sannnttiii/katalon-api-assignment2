@@ -37,6 +37,25 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+
+
+WS.verifyResponseStatusCode(response, 200)
+
+assertThat(response.getStatusCode()).isEqualTo(200)
+
+
+WS.verifyElementPropertyValue(response, '[0].userId', 10)
+WS.verifyElementPropertyValue(response, '[0].id', 100)
+WS.verifyElementPropertyValue(response, '[0].title', 'at nam consequatur ea labore ea harum')
+WS.verifyElementPropertyValue(response, '[0].body', 'cupiditate quo est a modi nesciunt soluta\nipsa voluptas error itaque dicta in\nautem qui minus magnam et distinctio eum\naccusamus ratione error aut')
+WS.verifyElementPropertyValue(response, '[1].userId', 10)
+WS.verifyElementPropertyValue(response, '[1].id', 99)
+WS.verifyElementPropertyValue(response, '[1].title', 'temporibus sit alias delectus eligendi possimus magni')
+WS.verifyElementPropertyValue(response, '[1].body', 'quo deleniti praesentium dicta non quod\naut est molestias\nmolestias et officia quis nihil\nitaque dolorem quia')
+WS.verifyElementPropertyValue(response, '[2].userId', 10)
+WS.verifyElementPropertyValue(response, '[2].id', 98)
+WS.verifyElementPropertyValue(response, '[2].title', 'laboriosam dolor voluptates')
+WS.verifyElementPropertyValue(response, '[2].body', 'doloremque ex facilis sit sint culpa\nsoluta assumenda eligendi non ut eius\nsequi ducimus vel quasi\nveritatis est dolores')</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

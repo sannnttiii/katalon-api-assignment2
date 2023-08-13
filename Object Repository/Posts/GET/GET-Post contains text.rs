@@ -37,6 +37,17 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+
+
+WS.verifyResponseStatusCode(response, 200)
+
+assertThat(response.getStatusCode()).isEqualTo(200)
+
+
+WS.verifyElementPropertyValue(response, '[0].userId', 2)
+WS.verifyElementPropertyValue(response, '[0].id', 13)
+WS.verifyElementPropertyValue(response, '[0].title', 'dolorum ut in voluptas mollitia et saepe quo animi')
+WS.verifyElementPropertyValue(response, '[0].body', 'aut dicta possimus sint mollitia voluptas commodi quo doloremque\niste corrupti reiciendis voluptatem eius rerum\nsit cumque quod eligendi laborum minima\nperferendis recusandae assumenda consectetur porro architecto ipsum ipsam')</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

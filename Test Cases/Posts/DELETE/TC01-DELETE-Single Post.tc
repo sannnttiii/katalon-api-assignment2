@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01-DELETE-Single Post</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>278eff67-bb81-4378-bc6a-e96e2660d1fb</testCaseGuid>
+</TestCaseEntity>

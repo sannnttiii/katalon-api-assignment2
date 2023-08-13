@@ -4,4 +4,19 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>2</initValue>
+      <name>Global_Post_UserId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'CREATE NEW DATA'</initValue>
+      <name>Global_Post_Title</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'New BODY data'</initValue>
+      <name>Global_Post_Body</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
