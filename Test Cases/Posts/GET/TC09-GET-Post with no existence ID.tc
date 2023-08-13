@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09-GET-Post with no existence ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bade7989-ea66-417c-a451-f0468277ac8b</testCaseGuid>
+</TestCaseEntity>

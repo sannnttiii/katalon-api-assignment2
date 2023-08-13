@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02-POST-Single Album without ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b07864b8-fe75-48b1-a189-ace19a967f31</testCaseGuid>
+</TestCaseEntity>

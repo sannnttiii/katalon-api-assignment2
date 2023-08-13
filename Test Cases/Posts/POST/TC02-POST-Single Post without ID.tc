@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02-POST-Single Post without ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d695abe4-4bf0-4d71-ad77-0943184624d4</testCaseGuid>
+</TestCaseEntity>

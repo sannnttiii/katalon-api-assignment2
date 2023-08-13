@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04-GET-Album Sort by ID in Descending Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef320048-371c-43f7-bf59-b4daa83ca6ce</testCaseGuid>
+</TestCaseEntity>
