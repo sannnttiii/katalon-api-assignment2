@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GET-Post Sort by Title</name>
+   <name>GET-Post contains text</name>
    <tag></tag>
-   <elementGuidId>24f0646f-897d-494e-863e-929451868d61</elementGuidId>
+   <elementGuidId>9ce02771-06b3-461d-99de-7f1466167df3</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>true</autoUpdateContent>
@@ -16,7 +16,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://jsonplaceholder.typicode.com/posts?_sort=title</restUrl>
+   <restUrl>https://jsonplaceholder.typicode.com/posts?q=mollitia voluptas</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>DELETE-Single Post</name>
+   <name>GET-Multiple Post with Specific ID</name>
    <tag></tag>
-   <elementGuidId>cfbd40ed-993b-4248-b873-b7c3e0eb93e3</elementGuidId>
+   <elementGuidId>b62b09e1-09a4-4384-a48c-f1d42245151b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>true</autoUpdateContent>
@@ -15,8 +15,8 @@
    <katalonVersion>8.6.5</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>https://jsonplaceholder.typicode.com/posts/10</restUrl>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>https://jsonplaceholder.typicode.com/posts?id=1&amp;id=2&amp;id=3</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

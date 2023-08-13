@@ -11,7 +11,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;userId\&quot;: 1,\n  \&quot;title\&quot;: \&quot;CREATE NEW POST\&quot;,\n  \&quot;body\&quot;: \&quot;ID auto generate\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;userId\&quot;: 1,\n  \&quot;id\&quot;:101,\n  \&quot;title\&quot;: \&quot;CREATE NEW POST\&quot;,\n  \&quot;body\&quot;: \&quot;ID auto generate\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
